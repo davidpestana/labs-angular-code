@@ -1,38 +1,71 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, catchError, delay, Observable, of, tap } from 'rxjs';
+import { BehaviorSubject, catchError, delay, map, Observable, of, shareReplay, tap } from 'rxjs';
 import { LoaderService } from '../layout/';
+import { HttpClient } from '@angular/common/http';
+
+export interface Plant {
+  id: string;
+  name: string;
+  location: string;
+  capacityKw: number;
+  status: string;
+}
+
+export type Plants = Plant[];
 
 @Injectable({
   providedIn: 'root'
 })
 export class PlantDataService {
   
-  private _plants$ = new BehaviorSubject<any[]>([]);
+  private _plants$ = new BehaviorSubject<Plant[]>([]);
+  private _timestamp$ = new BehaviorSubject<string|null>(null);
+  private _loaded$ = new BehaviorSubject<number>(0);
 
 
-  constructor(private loaderService: LoaderService) { }
+  private apiUrl = 'http://localhost:3000/api/plants';
 
-  get plants$(): Observable<any[]> {
+  constructor(
+    private loaderService: LoaderService,
+    private http: HttpClient
+  ) { }
+
+  get plants$(): Observable<Plant[]> {
     return this._plants$.asObservable();
   }
+
+  get count$(): Observable<number> {
+    return this._plants$.asObservable().pipe(map((plants => plants.length)));
+  }
+
+  get timestamp$(): Observable<string|null> {
+    return this._timestamp$.asObservable();
+  }
+  get loaded$(): Observable<number> {
+    return this._loaded$.asObservable();
+  }
+
 
   loadPlants(): void {
     this.getPlants()
     .pipe(
-      catchError(async () => this.loaderService.error('error personalizado')),
-      delay(500), 
-      tap(console.log),
-      tap(() => this.loaderService.set(false))
+      tap(() => this.loaderService.set(false)),
+      tap(((plants:Plants) => this._loaded$.next(plants.length))),
+      tap((() => this._timestamp$.next((new Date()).toDateString())))
+
     )
     .subscribe(data => this._plants$.next(data));
   }
 
-  getPlants(): Observable<any[]> {
+  private getPlants(): Observable<Plant[]> {
     this.loaderService.set(true);
-    return of([
-      { id: 'plant-001', name: 'Planta Solar Norte', location: 'Valencia' },
-      { id: 'plant-002', name: 'Planta Solar Este', location: 'Castellón' }
-    ]);
+    return this.http.get<Plant[]>(this.apiUrl).pipe(
+      catchError(err => {
+        this.loaderService.error('error personalizado')
+        return of([]);
+      }),
+      shareReplay(1)
+    );
   }
 
 }

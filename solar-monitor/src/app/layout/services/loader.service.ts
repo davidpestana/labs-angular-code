@@ -9,9 +9,8 @@ export class LoaderService {
   private _loader$ = new BehaviorSubject<boolean>(false);
 
   get loader$(): Observable<boolean> {
-    return of(true);
+    return this._loader$.asObservable();
   }
-
 
   set(state: boolean){
     this._loader$.next(state);

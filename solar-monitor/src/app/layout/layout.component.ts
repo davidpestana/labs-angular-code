@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-import { of } from 'rxjs';
 import { LoaderService } from './services/loader.service';
+import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [],
+  imports: [RouterOutlet, CommonModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

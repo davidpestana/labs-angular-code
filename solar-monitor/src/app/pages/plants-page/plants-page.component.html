@@ -1,6 +1,6 @@
 <section>
   <ul>
-    @for (plant of plants$ |async track plant.id) {
+    @for (plant of plants$ | async; track plant.id) {
     <li>
       {{ plant.name }} – {{ plant.location }}
     </li>
