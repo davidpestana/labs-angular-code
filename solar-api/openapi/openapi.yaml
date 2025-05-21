@@ -1,0 +1,84 @@
+openapi: 3.0.0
+info:
+  title: Solar Monitor API
+  version: 1.0.0
+paths:
+  /api/plants:
+    get:
+      summary: Lista de plantas solares
+      responses:
+        '200':
+          description: Lista de plantas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Plant'
+  /api/plants/{id}:
+    get:
+      summary: Obtener planta por ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Planta encontrada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Plant'
+  /api/alerts:
+    get:
+      summary: Lista de alertas activas
+      responses:
+        '200':
+          description: Lista de alertas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Alert'
+    post:
+      summary: Crear una alerta
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Alert'
+      responses:
+        '201':
+          description: Alerta creada
+components:
+  schemas:
+    Plant:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        location:
+          type: string
+        capacityKw:
+          type: integer
+        status:
+          type: string
+    Alert:
+      type: object
+      properties:
+        id:
+          type: string
+        plantId:
+          type: string
+        type:
+          type: string
+        message:
+          type: string
+        timestamp:
+          type: string

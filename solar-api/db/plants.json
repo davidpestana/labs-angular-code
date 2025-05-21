@@ -1,0 +1,702 @@
+[
+  {
+    "id": "91791a7c-4fcd-4117-9685-ee366fb2eb7e",
+    "name": "Daugherty, Skiles and Willms Solar Plant",
+    "location": "Fort Eldora, Malaysia",
+    "capacityKw": 3498,
+    "status": "offline"
+  },
+  {
+    "id": "db06b478-ce40-4d94-90be-e2ce80075ed0",
+    "name": "Kuhlman, Stokes and Ernser Solar Plant",
+    "location": "East Donnie, Solomon Islands",
+    "capacityKw": 2050,
+    "status": "maintenance"
+  },
+  {
+    "id": "88874cee-aa75-4521-a7aa-d21e48c8940b",
+    "name": "Haley, Carter and White Solar Plant",
+    "location": "West Jarvis, Bahamas",
+    "capacityKw": 3014,
+    "status": "maintenance"
+  },
+  {
+    "id": "2649a8ba-0572-4ccd-b76f-93ca5120eecd",
+    "name": "Miller - Mohr Solar Plant",
+    "location": "Rancho Cucamonga, Bulgaria",
+    "capacityKw": 1076,
+    "status": "maintenance"
+  },
+  {
+    "id": "601ecaec-8fab-4f10-be97-7912491fc95a",
+    "name": "West Group Solar Plant",
+    "location": "Catharinefield, Eswatini",
+    "capacityKw": 219,
+    "status": "offline"
+  },
+  {
+    "id": "763aa160-9505-43ad-a8e2-710a72f4f9a0",
+    "name": "Maggio, Tromp and Keebler Solar Plant",
+    "location": "Ericfort, Australia",
+    "capacityKw": 3729,
+    "status": "active"
+  },
+  {
+    "id": "9212205e-8f62-4fb4-b667-c3d4a1135666",
+    "name": "Rath and Sons Solar Plant",
+    "location": "Madisyncester, France",
+    "capacityKw": 2153,
+    "status": "offline"
+  },
+  {
+    "id": "20bd5b7c-0ca7-4990-9799-00cec7697196",
+    "name": "Marvin and Sons Solar Plant",
+    "location": "Port Fiona, Bahrain",
+    "capacityKw": 1760,
+    "status": "offline"
+  },
+  {
+    "id": "a09ab021-011c-4f0b-9d0a-e3c1d3788c91",
+    "name": "Hintz Group Solar Plant",
+    "location": "Grand Prairie, Turks and Caicos Islands",
+    "capacityKw": 3529,
+    "status": "active"
+  },
+  {
+    "id": "b87ede4c-2214-41ca-a947-cdb389bc1f77",
+    "name": "D'Amore - Bruen Solar Plant",
+    "location": "Carrollton, Kiribati",
+    "capacityKw": 1176,
+    "status": "active"
+  },
+  {
+    "id": "76a85e1f-555d-49e9-8200-06b9b3e583db",
+    "name": "Erdman Inc Solar Plant",
+    "location": "Redondo Beach, Democratic People's Republic of Korea",
+    "capacityKw": 4112,
+    "status": "active"
+  },
+  {
+    "id": "082bc36f-cf97-46d2-8c3f-981ea4aaf97d",
+    "name": "Muller - Hyatt Solar Plant",
+    "location": "Bakersfield, Oman",
+    "capacityKw": 2633,
+    "status": "maintenance"
+  },
+  {
+    "id": "c100abf2-9920-4fc1-9509-c729ad57bfd0",
+    "name": "Turner Group Solar Plant",
+    "location": "West Reesestead, Afghanistan",
+    "capacityKw": 2056,
+    "status": "offline"
+  },
+  {
+    "id": "1388b7b2-234e-4aea-8e53-da6d7d895ebd",
+    "name": "Shanahan, Turcotte and Hayes Solar Plant",
+    "location": "Hayesfurt, El Salvador",
+    "capacityKw": 4928,
+    "status": "active"
+  },
+  {
+    "id": "5d217bd8-7053-4458-b5a6-45d07f1c16ae",
+    "name": "Cremin Inc Solar Plant",
+    "location": "Port Khalidcester, Saint Pierre and Miquelon",
+    "capacityKw": 3631,
+    "status": "offline"
+  },
+  {
+    "id": "eb140a8c-281c-42bb-bdfc-de718505d6ba",
+    "name": "Wilkinson and Sons Solar Plant",
+    "location": "Bednartown, Reunion",
+    "capacityKw": 2049,
+    "status": "offline"
+  },
+  {
+    "id": "697e93f8-7cb3-4164-9a32-d0c6b0c35481",
+    "name": "Nader LLC Solar Plant",
+    "location": "North Unamouth, Faroe Islands",
+    "capacityKw": 3145,
+    "status": "active"
+  },
+  {
+    "id": "cabc62a0-a689-40fb-bddd-139e15aac42e",
+    "name": "Conn, O'Kon and Hoeger Solar Plant",
+    "location": "Kyleeton, United Kingdom",
+    "capacityKw": 4808,
+    "status": "active"
+  },
+  {
+    "id": "24263c9d-cf4b-40b5-aae7-724bccadee17",
+    "name": "Parisian Group Solar Plant",
+    "location": "East Sheridan, Australia",
+    "capacityKw": 3682,
+    "status": "active"
+  },
+  {
+    "id": "9ead2834-97f5-4597-abb4-e86918e1ffde",
+    "name": "Skiles LLC Solar Plant",
+    "location": "Cristbury, Palestine",
+    "capacityKw": 565,
+    "status": "maintenance"
+  },
+  {
+    "id": "fe9a780e-c9c3-4989-8fe8-d0ba7d2a2bf1",
+    "name": "Hahn - Wuckert Solar Plant",
+    "location": "Eltafort, Guernsey",
+    "capacityKw": 4002,
+    "status": "active"
+  },
+  {
+    "id": "bafe64e6-5adf-46cc-acec-a464b49c7d05",
+    "name": "Nikolaus - Schimmel Solar Plant",
+    "location": "Port Nehaberg, Sudan",
+    "capacityKw": 1599,
+    "status": "offline"
+  },
+  {
+    "id": "27f988a0-a72b-43c8-a1a0-49e4d166b8f8",
+    "name": "Kihn, McCullough and Adams Solar Plant",
+    "location": "Adeleville, Samoa",
+    "capacityKw": 2772,
+    "status": "maintenance"
+  },
+  {
+    "id": "b7759b67-b401-4440-b81c-7fd0f97a93f1",
+    "name": "Botsford, Conroy and Kris Solar Plant",
+    "location": "Doloresside, Moldova",
+    "capacityKw": 1149,
+    "status": "active"
+  },
+  {
+    "id": "1ed04f92-5d9c-45db-b658-a538ef2c4c37",
+    "name": "Hegmann and Sons Solar Plant",
+    "location": "Lake Enriquefurt, United States Minor Outlying Islands",
+    "capacityKw": 2266,
+    "status": "maintenance"
+  },
+  {
+    "id": "97ec0e34-870d-4408-8654-77b9a814e68b",
+    "name": "Robel - Kautzer Solar Plant",
+    "location": "Crooksworth, Saint Lucia",
+    "capacityKw": 3148,
+    "status": "maintenance"
+  },
+  {
+    "id": "a3c7238f-cdd1-4b1f-854a-b7a2a91cdbd0",
+    "name": "Rau, Veum and Cormier Solar Plant",
+    "location": "Fort Jarvis, Dominican Republic",
+    "capacityKw": 469,
+    "status": "active"
+  },
+  {
+    "id": "b0b745b6-226e-43bb-88cb-c70f736fac65",
+    "name": "Lind Group Solar Plant",
+    "location": "Imeldaberg, Algeria",
+    "capacityKw": 866,
+    "status": "active"
+  },
+  {
+    "id": "daca6758-2f0c-40ae-8567-8b7d2fff19c1",
+    "name": "Waters, Huels and Kilback Solar Plant",
+    "location": "Lake Lowell, Liberia",
+    "capacityKw": 2950,
+    "status": "active"
+  },
+  {
+    "id": "f5a3d2bc-6912-4cb4-b856-9365ca380fe3",
+    "name": "Murazik - Tromp Solar Plant",
+    "location": "New Ayden, Hungary",
+    "capacityKw": 372,
+    "status": "active"
+  },
+  {
+    "id": "7be84c55-6958-4626-8bcc-dff1c09b011d",
+    "name": "Price LLC Solar Plant",
+    "location": "Fort Carolyne, Svalbard & Jan Mayen Islands",
+    "capacityKw": 2263,
+    "status": "offline"
+  },
+  {
+    "id": "6459274f-36a7-4f45-af3c-fc6472f07f71",
+    "name": "Barrows - Brakus Solar Plant",
+    "location": "South Genetown, Tajikistan",
+    "capacityKw": 324,
+    "status": "offline"
+  },
+  {
+    "id": "54ad637d-e5f9-4f7a-8bfa-c897af343b55",
+    "name": "Johnston, Waters and Sipes Solar Plant",
+    "location": "Gutmannberg, Turkey",
+    "capacityKw": 1689,
+    "status": "maintenance"
+  },
+  {
+    "id": "1aef930f-e8e4-45a2-892c-7a6261263bc4",
+    "name": "Lang - Abbott Solar Plant",
+    "location": "New Ceasar, Belize",
+    "capacityKw": 836,
+    "status": "maintenance"
+  },
+  {
+    "id": "8f6f496a-7671-4798-9abb-429884d71c15",
+    "name": "Paucek Group Solar Plant",
+    "location": "New Rusty, Marshall Islands",
+    "capacityKw": 997,
+    "status": "offline"
+  },
+  {
+    "id": "8338700d-c3be-4db7-8c2e-d941cfdd4f07",
+    "name": "Carter, Corwin and Hodkiewicz Solar Plant",
+    "location": "Marquardtview, Cayman Islands",
+    "capacityKw": 3761,
+    "status": "maintenance"
+  },
+  {
+    "id": "9c9919c3-471d-481c-9183-41f27489017f",
+    "name": "Schmitt, Kuvalis and Cummings Solar Plant",
+    "location": "Fort Bettye, Tuvalu",
+    "capacityKw": 3351,
+    "status": "active"
+  },
+  {
+    "id": "8b04bebf-c2aa-4069-9765-b688fde7e588",
+    "name": "Lueilwitz Group Solar Plant",
+    "location": "Honolulu, Norway",
+    "capacityKw": 1427,
+    "status": "maintenance"
+  },
+  {
+    "id": "7817cd33-c815-4a55-b8fe-d47584e05195",
+    "name": "Abernathy, Kovacek and Boyer Solar Plant",
+    "location": "Teresaboro, Croatia",
+    "capacityKw": 3253,
+    "status": "active"
+  },
+  {
+    "id": "6c112a15-f257-41c5-944d-56cd90bb9c8f",
+    "name": "Waters, Nader and Bode Solar Plant",
+    "location": "Enidworth, Palau",
+    "capacityKw": 1643,
+    "status": "active"
+  },
+  {
+    "id": "8eb93018-5ab3-46d2-81d1-f97babefefb2",
+    "name": "Powlowski - Auer Solar Plant",
+    "location": "Collinsburgh, Iceland",
+    "capacityKw": 2269,
+    "status": "active"
+  },
+  {
+    "id": "14f86dec-86d5-4e8a-ac27-4c4d1a4c4061",
+    "name": "Adams - Franecki Solar Plant",
+    "location": "Indianapolis, Bonaire, Sint Eustatius and Saba",
+    "capacityKw": 904,
+    "status": "maintenance"
+  },
+  {
+    "id": "77ba7af5-7b44-44cb-a9b5-1771ad502faf",
+    "name": "Lebsack - Reynolds Solar Plant",
+    "location": "Davionstad, Colombia",
+    "capacityKw": 602,
+    "status": "active"
+  },
+  {
+    "id": "045529d3-3295-4701-af77-4a14cc5bfbcf",
+    "name": "Price - Hartmann Solar Plant",
+    "location": "Blickstead, Rwanda",
+    "capacityKw": 4663,
+    "status": "maintenance"
+  },
+  {
+    "id": "0e459622-ba8d-44ba-a471-74bae1c74df3",
+    "name": "Macejkovic, Hand and Funk Solar Plant",
+    "location": "Port Herta, Poland",
+    "capacityKw": 3324,
+    "status": "offline"
+  },
+  {
+    "id": "b6fd1f72-bafd-4792-9a93-bb68a7340be0",
+    "name": "Spencer - Gibson Solar Plant",
+    "location": "Rutherfordberg, Turkey",
+    "capacityKw": 432,
+    "status": "maintenance"
+  },
+  {
+    "id": "7b87c512-2403-4509-885d-34c2b4073b48",
+    "name": "Haley LLC Solar Plant",
+    "location": "D'Amoremouth, Barbados",
+    "capacityKw": 1751,
+    "status": "active"
+  },
+  {
+    "id": "cbad21ef-e124-4b64-a24f-de37b8493e16",
+    "name": "Ledner, Harvey and Lockman Solar Plant",
+    "location": "Abilene, Costa Rica",
+    "capacityKw": 2913,
+    "status": "offline"
+  },
+  {
+    "id": "2af3ff30-2089-4444-bf76-137a3b1011f2",
+    "name": "Mann Inc Solar Plant",
+    "location": "Nolanborough, San Marino",
+    "capacityKw": 1815,
+    "status": "offline"
+  },
+  {
+    "id": "3f6ea78a-3aa7-4bee-aa90-42a74e91d743",
+    "name": "Hilll and Sons Solar Plant",
+    "location": "New Amara, Luxembourg",
+    "capacityKw": 3701,
+    "status": "offline"
+  },
+  {
+    "id": "f2aa7f15-075e-45c5-9abd-2fd0787c4b6c",
+    "name": "Robel LLC Solar Plant",
+    "location": "Amarillo, Malawi",
+    "capacityKw": 4186,
+    "status": "active"
+  },
+  {
+    "id": "c57768a5-eace-4542-9e26-b897eca6b28c",
+    "name": "Kovacek - Hills Solar Plant",
+    "location": "South Amparo, Brazil",
+    "capacityKw": 2334,
+    "status": "maintenance"
+  },
+  {
+    "id": "b2bfa05b-7cc9-4ae2-ae22-95940cd5eae5",
+    "name": "Howell Inc Solar Plant",
+    "location": "Willburgh, Mayotte",
+    "capacityKw": 4763,
+    "status": "active"
+  },
+  {
+    "id": "2f71af5f-084b-408e-ac02-b43f0fc72d07",
+    "name": "Gislason - Grady Solar Plant",
+    "location": "Eberthaven, French Polynesia",
+    "capacityKw": 773,
+    "status": "offline"
+  },
+  {
+    "id": "f376270b-2ba8-40a9-9235-a8bb4d718fec",
+    "name": "Kshlerin, Padberg and McCullough Solar Plant",
+    "location": "New Libbie, Heard Island and McDonald Islands",
+    "capacityKw": 1777,
+    "status": "maintenance"
+  },
+  {
+    "id": "21559f2c-6c8f-46d7-9a77-a30c206cdcd5",
+    "name": "Franey Group Solar Plant",
+    "location": "Luciennestead, Kiribati",
+    "capacityKw": 398,
+    "status": "maintenance"
+  },
+  {
+    "id": "1b92bfbe-f689-4594-82c8-2fb2a7f543d0",
+    "name": "Davis Inc Solar Plant",
+    "location": "Bloomington, Malawi",
+    "capacityKw": 3201,
+    "status": "active"
+  },
+  {
+    "id": "ad36f692-985e-4490-b7e1-2d73e698be1f",
+    "name": "Hodkiewicz Inc Solar Plant",
+    "location": "West Violette, Seychelles",
+    "capacityKw": 1594,
+    "status": "maintenance"
+  },
+  {
+    "id": "d0dcebec-5c9d-463f-b6b3-e4de14431d4f",
+    "name": "Spinka, Purdy and Prohaska Solar Plant",
+    "location": "Port Torranceside, Bulgaria",
+    "capacityKw": 1611,
+    "status": "offline"
+  },
+  {
+    "id": "5ae9e36b-e5d6-4497-9b40-74caf5351b58",
+    "name": "Schaden, Collier and Gutkowski Solar Plant",
+    "location": "Lake George, Switzerland",
+    "capacityKw": 751,
+    "status": "active"
+  },
+  {
+    "id": "8b6433f9-d3d3-4942-8af6-73b5629e3844",
+    "name": "Witting - Wiegand Solar Plant",
+    "location": "Laurieville, Burundi",
+    "capacityKw": 2197,
+    "status": "maintenance"
+  },
+  {
+    "id": "6203acea-63ec-4262-9c6e-9e361037a6ab",
+    "name": "Parisian - Gorczany Solar Plant",
+    "location": "Lake Demetrius, French Southern Territories",
+    "capacityKw": 1090,
+    "status": "active"
+  },
+  {
+    "id": "5a8da6b8-b44a-4ac0-a15c-1f82453cdbcd",
+    "name": "Fay - Sanford Solar Plant",
+    "location": "Pollichton, Singapore",
+    "capacityKw": 4287,
+    "status": "offline"
+  },
+  {
+    "id": "9c9fd38a-3465-44ac-8328-f994bde444dc",
+    "name": "Kihn - Bechtelar Solar Plant",
+    "location": "West Lillie, Namibia",
+    "capacityKw": 475,
+    "status": "offline"
+  },
+  {
+    "id": "8bdabe7f-4021-4eba-b949-2bc71045b314",
+    "name": "Kerluke, Schimmel and Welch Solar Plant",
+    "location": "Long Beach, Namibia",
+    "capacityKw": 2872,
+    "status": "maintenance"
+  },
+  {
+    "id": "fc592625-feee-4d71-83ea-1ceab3f59e13",
+    "name": "Gutmann - Kirlin Solar Plant",
+    "location": "Fort Dayna, Djibouti",
+    "capacityKw": 994,
+    "status": "active"
+  },
+  {
+    "id": "4a51f6e2-e5f0-445f-8489-406759fa6863",
+    "name": "Paucek, Berge and Reynolds Solar Plant",
+    "location": "Rooseveltchester, Tajikistan",
+    "capacityKw": 1830,
+    "status": "active"
+  },
+  {
+    "id": "27e94cb5-02cd-4d12-83c7-fa8ee53df1a5",
+    "name": "Rodriguez - Adams Solar Plant",
+    "location": "South Josefina, French Southern Territories",
+    "capacityKw": 2559,
+    "status": "maintenance"
+  },
+  {
+    "id": "23eb2d13-2c38-4618-aaad-f2afa47f51cd",
+    "name": "Baumbach Group Solar Plant",
+    "location": "New Myrtie, Comoros",
+    "capacityKw": 4156,
+    "status": "maintenance"
+  },
+  {
+    "id": "9f5aee15-f57b-49ce-8609-9ffe4e9b27c6",
+    "name": "Rohan LLC Solar Plant",
+    "location": "North Earlland, Myanmar",
+    "capacityKw": 3782,
+    "status": "active"
+  },
+  {
+    "id": "1484f515-5c31-4461-92bc-e355511172d8",
+    "name": "Luettgen Inc Solar Plant",
+    "location": "South Audra, Kenya",
+    "capacityKw": 869,
+    "status": "offline"
+  },
+  {
+    "id": "797f1d28-001d-45c7-833e-5c1fa54db162",
+    "name": "Heller Group Solar Plant",
+    "location": "North Martinshire, Antarctica",
+    "capacityKw": 1103,
+    "status": "active"
+  },
+  {
+    "id": "c35a7268-d617-4a18-b1a8-493c572f74c9",
+    "name": "Hermann, Volkman and Thiel Solar Plant",
+    "location": "Gerlachcester, Grenada",
+    "capacityKw": 2623,
+    "status": "offline"
+  },
+  {
+    "id": "e62b4c83-bd9f-41fc-8c96-1230a9457c4b",
+    "name": "Graham - Pfeffer Solar Plant",
+    "location": "Karolannboro, Pakistan",
+    "capacityKw": 2228,
+    "status": "active"
+  },
+  {
+    "id": "86c87bbf-da8f-4202-a725-9b3ee1e90510",
+    "name": "Brown LLC Solar Plant",
+    "location": "North Ebbaview, Turkmenistan",
+    "capacityKw": 4838,
+    "status": "offline"
+  },
+  {
+    "id": "519777ef-9b09-493e-a56a-bec52773b46f",
+    "name": "Rosenbaum Group Solar Plant",
+    "location": "Beahanville, Mauritius",
+    "capacityKw": 2036,
+    "status": "maintenance"
+  },
+  {
+    "id": "9825c8d3-d0e4-4c84-b1b0-1ab60d9e8667",
+    "name": "Stanton - Morissette Solar Plant",
+    "location": "Streichstad, French Polynesia",
+    "capacityKw": 3942,
+    "status": "active"
+  },
+  {
+    "id": "5a52f78d-8103-47af-8705-3c424cd08bc5",
+    "name": "Terry Inc Solar Plant",
+    "location": "South Ruth, Croatia",
+    "capacityKw": 808,
+    "status": "maintenance"
+  },
+  {
+    "id": "c60ae4b9-b982-4290-abde-65851c1d1951",
+    "name": "Hermann Group Solar Plant",
+    "location": "Mitchellmouth, Ghana",
+    "capacityKw": 4486,
+    "status": "offline"
+  },
+  {
+    "id": "94e4ce5a-0d32-4516-8f49-1913217d2951",
+    "name": "Auer, O'Keefe and Mueller Solar Plant",
+    "location": "Pasadena, Puerto Rico",
+    "capacityKw": 3812,
+    "status": "maintenance"
+  },
+  {
+    "id": "e07915e4-a9a2-4917-a889-ee7c737e246d",
+    "name": "Emard - Harris Solar Plant",
+    "location": "North Charleston, Uzbekistan",
+    "capacityKw": 504,
+    "status": "maintenance"
+  },
+  {
+    "id": "6f5115e7-b66b-428d-b800-a326dc8eea83",
+    "name": "Smith and Sons Solar Plant",
+    "location": "Langworthport, Saint Lucia",
+    "capacityKw": 201,
+    "status": "maintenance"
+  },
+  {
+    "id": "23e3aa16-9b9f-4057-aab6-191c48ee1730",
+    "name": "Fay, Mitchell and Schulist Solar Plant",
+    "location": "Haleyville, Saint Martin",
+    "capacityKw": 478,
+    "status": "maintenance"
+  },
+  {
+    "id": "139eeeb4-918e-4be2-97d1-705367e38f37",
+    "name": "Sporer - Stroman Solar Plant",
+    "location": "New Marietta, Nepal",
+    "capacityKw": 3493,
+    "status": "active"
+  },
+  {
+    "id": "791f98fe-25b6-4388-acc5-28feadc5f6c0",
+    "name": "Bruen and Sons Solar Plant",
+    "location": "Jessikaburgh, Turks and Caicos Islands",
+    "capacityKw": 4357,
+    "status": "active"
+  },
+  {
+    "id": "5469bc6e-6373-4f55-9d59-fc2faceb9cc4",
+    "name": "Kiehn, Gottlieb and Russel Solar Plant",
+    "location": "Altheatown, Tanzania",
+    "capacityKw": 502,
+    "status": "maintenance"
+  },
+  {
+    "id": "efe01098-336b-40ca-9000-55b580c10954",
+    "name": "Beahan and Sons Solar Plant",
+    "location": "Mattton, Jamaica",
+    "capacityKw": 4070,
+    "status": "maintenance"
+  },
+  {
+    "id": "a15000e8-b60e-4e70-9fe5-18ca87c8f4ea",
+    "name": "Kovacek - Goldner Solar Plant",
+    "location": "Rennerville, Vietnam",
+    "capacityKw": 4280,
+    "status": "maintenance"
+  },
+  {
+    "id": "7b6f2861-8b43-4349-afbf-e0c36ccee425",
+    "name": "Thiel - Grimes Solar Plant",
+    "location": "North Sarina, Guatemala",
+    "capacityKw": 4044,
+    "status": "active"
+  },
+  {
+    "id": "df9e24f5-863b-4028-a758-860f4f3cb739",
+    "name": "Kunde, Lindgren and Kshlerin Solar Plant",
+    "location": "Nashville-Davidson, Armenia",
+    "capacityKw": 186,
+    "status": "maintenance"
+  },
+  {
+    "id": "397332e5-605a-49e3-abe0-fd9745c157f1",
+    "name": "Cartwright, Dicki and Nolan Solar Plant",
+    "location": "South Alayna, Suriname",
+    "capacityKw": 2182,
+    "status": "maintenance"
+  },
+  {
+    "id": "b1840e1d-f27c-4665-9430-ccffdf3a8fa6",
+    "name": "Greenholt, Trantow and O'Keefe Solar Plant",
+    "location": "Lake Bertfield, Croatia",
+    "capacityKw": 106,
+    "status": "active"
+  },
+  {
+    "id": "8e61c487-9075-4cb0-b939-772b0ada92e7",
+    "name": "Shields - Kuphal Solar Plant",
+    "location": "Fort Juanita, Cape Verde",
+    "capacityKw": 4404,
+    "status": "active"
+  },
+  {
+    "id": "698f8709-25a9-4c25-ae7e-f774a4e34008",
+    "name": "Carter, Beier and Bernhard Solar Plant",
+    "location": "Berkeley, Libyan Arab Jamahiriya",
+    "capacityKw": 3163,
+    "status": "maintenance"
+  },
+  {
+    "id": "fa31de61-c0df-4728-a6d5-42ae9f8fee11",
+    "name": "Predovic - Hoppe Solar Plant",
+    "location": "East Josianneburgh, Palestine",
+    "capacityKw": 859,
+    "status": "offline"
+  },
+  {
+    "id": "3fd328bb-1f09-43da-bff7-c7fafd3b581e",
+    "name": "Tillman - Rutherford Solar Plant",
+    "location": "South Nyasia, Maldives",
+    "capacityKw": 2549,
+    "status": "offline"
+  },
+  {
+    "id": "b9e1ae09-c9e7-4252-922f-493faaea3753",
+    "name": "Shields - Friesen Solar Plant",
+    "location": "Hilpertberg, Holy See (Vatican City State)",
+    "capacityKw": 1652,
+    "status": "offline"
+  },
+  {
+    "id": "4ebda647-f83c-49e9-8297-1dc7f7e63536",
+    "name": "Murphy - Kshlerin Solar Plant",
+    "location": "Abshirefield, Hungary",
+    "capacityKw": 1092,
+    "status": "active"
+  },
+  {
+    "id": "993dee45-2a9b-4504-bb90-b29ea5933705",
+    "name": "Davis, Reichert and Williamson Solar Plant",
+    "location": "Jeradhaven, Northern Mariana Islands",
+    "capacityKw": 4384,
+    "status": "maintenance"
+  },
+  {
+    "id": "16a98f74-997c-416f-9388-687356708ff5",
+    "name": "Sanford - Barton Solar Plant",
+    "location": "Santa Fe, Belize",
+    "capacityKw": 445,
+    "status": "offline"
+  }
+]
