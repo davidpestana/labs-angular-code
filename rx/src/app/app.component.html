@@ -1,0 +1,11 @@
+<app-cabecera></app-cabecera>
+
+<button (click)="toogle()">pulsa</button>
+<button (click)="load(1)">pagina 1</button>
+<button (click)="load(2)">pagina 2</button>
+
+@if (mostrar) {
+  <app-c1 [pagina]="pagina"></app-c1>
+}
+
+

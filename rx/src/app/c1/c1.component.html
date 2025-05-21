@@ -1,0 +1,6 @@
+<p>c1 works!  {{ charactersCount$ | async }}</p>
+<ul>
+@for (character of characters$ | async; track $index) {
+<li><app-c2 [character]="character"></app-c2></li>
+}
+</ul>

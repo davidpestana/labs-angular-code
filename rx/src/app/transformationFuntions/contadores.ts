@@ -1,0 +1,1 @@
+export length = (f:array): number = f.lengt
