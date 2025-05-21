@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { of } from 'rxjs';
+import { LoaderService } from './services/loader.service';
 
 @Component({
   selector: 'app-layout',
@@ -9,4 +11,10 @@ import { Component } from '@angular/core';
 })
 export class LayoutComponent {
 
+  loader$ = this.loaderService.loader$;
+
+
+  constructor(private loaderService: LoaderService) {
+
+  }
 }

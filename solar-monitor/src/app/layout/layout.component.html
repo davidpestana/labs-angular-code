@@ -5,6 +5,9 @@
     <a routerLink="/plants" routerLinkActive="active">Plantas</a>
   </nav>
 </header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+    @if(loader$ | async) {
+        <p>CARGANDO</p>
+    } 
+    <main>
+    <router-outlet></router-outlet>
+    </main>
