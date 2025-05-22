@@ -1,16 +1,13 @@
 <section>
+  <app-plants-filter></app-plants-filter>
+  
   <ul>
     @for (plant of plants$ | async; track plant.id) {
     <li>
       {{ plant.name }} – {{ plant.location }}
     </li>
-    } @empty {
-     <li>Cargando datos...</li>
     }
   </ul>
 </section>
-
-
-
 
 

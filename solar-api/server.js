@@ -13,7 +13,7 @@ app.use('/api/plants', require('./routes/plants'));
 app.use('/api/alerts', require('./routes/alerts'));
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`API running at http://localhost:${port}`);
   console.log(`Swagger docs at http://localhost:${port}/api/docs`);
 });

@@ -1,7 +1,12 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, catchError, delay, map, Observable, of, shareReplay, tap } from 'rxjs';
+import { BehaviorSubject, catchError, delay, distinct, map, Observable, of, OperatorFunction, shareReplay, tap } from 'rxjs';
 import { LoaderService } from '../layout/';
 import { HttpClient } from '@angular/common/http';
+import { FormGroup } from '@angular/forms';
+
+
+
+
 
 export interface Plant {
   id: string;
@@ -22,20 +27,45 @@ export class PlantDataService {
   private _timestamp$ = new BehaviorSubject<string|null>(null);
   private _loaded$ = new BehaviorSubject<number>(0);
 
+  private _filter$!: Observable<any>;
 
-  private apiUrl = 'http://localhost:3000/api/plants';
+  private apiUrl = 'http://172.17.0.2:3000/api/plants';
 
   constructor(
     private loaderService: LoaderService,
     private http: HttpClient
   ) { }
 
+  set filter$(filter$: Observable<any>) {
+    this._filter$ = filter$;
+  }
+
+  get filter$() {
+    return this._filter$;
+  }
+
   get plants$(): Observable<Plant[]> {
     return this._plants$.asObservable();
   }
 
+
+
+  get filteredPlants$(): Observable<Plant[]> {
+
+
+    
+    return this._plants$.asObservable().pipe(
+      
+    );
+  }
   get count$(): Observable<number> {
     return this._plants$.asObservable().pipe(map((plants => plants.length)));
+  }
+
+  get distinctStatus$(): Observable<string[]> {
+   return this._plants$.asObservable().pipe(
+      map(plants => [...new Set(plants.map(p => p.status))])
+    ) 
   }
 
   get timestamp$(): Observable<string|null> {
@@ -57,7 +87,7 @@ export class PlantDataService {
     .subscribe(data => this._plants$.next(data));
   }
 
-  private getPlants(): Observable<Plant[]> {
+  public getPlants(): Observable<Plant[]> {
     this.loaderService.set(true);
     return this.http.get<Plant[]>(this.apiUrl).pipe(
       catchError(err => {

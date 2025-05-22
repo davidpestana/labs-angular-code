@@ -10,5 +10,5 @@ import { LayoutComponent } from './layout';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'solar-monitor';
+
 }
