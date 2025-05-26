@@ -3,15 +3,11 @@ import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
-import { ActionReducerMap, provideStore } from '@ngrx/store';
-import { AppState, plantReducer } from './pages/plants-page/plants.actions';
+import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
 import { PlantEffects } from './pages/plants-page/plants.effects';
+import { appReducers } from './app.state';
 
-
-export const AppReducers: ActionReducerMap<AppState> = {
-  plants: plantReducer,
-}
 
 
 
@@ -19,7 +15,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideHttpClient(),
     provideRouter(routes),
-    provideStore(AppReducers),
+    provideStore(appReducers),
     provideEffects(PlantEffects)
 ]
 };
