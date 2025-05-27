@@ -1,1 +1,18 @@
-<router-outlet></router-outlet>
+@if(auth.isAuthenticated()) {
+    <router-outlet></router-outlet>
+    <button (click)="auth.logout()"> logout</button>
+
+} @else {
+    <p>no puedes</p>
+    <button (click)="auth.login('david','admin')"> login yo</button>
+}
+  <!-- <button (click)="auth.login('alice', 'admin')">Login como Admin</button>
+  <button (click)="auth.login('bob', 'viewer')">Login como Viewer</button>
+</div>
+
+<div *ngIf="auth.isAuthenticated()">
+  Bienvenido, {{ auth.currentUser()?.username }} ({{ auth.currentUser()?.role }})
+  <button (click)="auth.logout()">Logout</button> -->
+  
+
+

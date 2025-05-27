@@ -10,6 +10,8 @@
 
 
 <section>
+
+  <app-plant-filter></app-plant-filter>
   <ul>
     @for (plant of plantsRXJS$ | async; track plant.id) {
     <li>

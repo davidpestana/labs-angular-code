@@ -1,17 +1,17 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, computed } from '@angular/core';
 import { Plant, PlantDataService } from '../../services/plant-data.service';
 import { CommonModule } from '@angular/common';
-import { PlantsFilterComponent } from '../../filters/plants-filter/plants-filter.component';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { selectPlants } from './plants.selectors';
 import { AppState } from '../../app.state';
 import { loadPlants } from './plants.actions';
+import { PlantFilterComponent } from './components/filter.component';
 
 @Component({
   selector: 'app-plants-page',
   standalone: true,
-  imports: [CommonModule, PlantsFilterComponent],
+  imports: [CommonModule, PlantFilterComponent],
   templateUrl: './plants-page.component.html',
   styleUrl: './plants-page.component.css'
 })
@@ -22,9 +22,11 @@ export class PlantsPageComponent implements AfterViewInit {
 
   constructor(
     private data: PlantDataService,
-    private store: Store<AppState>
+    private store: Store<AppState>,
   
-  ) {}
+  ) {
+
+  }
 
 
   ngAfterViewInit() {

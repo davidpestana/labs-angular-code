@@ -11,7 +11,7 @@ import { Plant, PlantDataService } from "../../services/plant-data.service";
         switchMap(() => this.api.getPlants().pipe(
         map((plants: Plant[]) => loadPlantsSuccess({ plants }))
         ))
-    ));
-
+    ))
+    
   constructor(private actions$: Actions, private api: PlantDataService) {}
 }
