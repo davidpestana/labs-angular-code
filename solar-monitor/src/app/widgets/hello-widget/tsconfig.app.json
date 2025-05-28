@@ -1,0 +1,10 @@
+{
+  "extends": "../../../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../../../out-tsc/hello-widget",
+    "types": []
+  },
+  "files": [],
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.spec.ts"]
+}

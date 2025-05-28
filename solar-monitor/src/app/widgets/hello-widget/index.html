@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Widget</title>
+  </head>
+  <body>
+
+    <style>body { color: red; font-size: 30px }</style>
+    <app-hello-widget name="Hello"></app-hello-widget>
+    <app-hello-widget name="World"></app-hello-widget>
+
+<script>
+  const widget = document.querySelector('app-hello-widget');
+  widget.addEventListener('greeted', e => {
+    console.log('[externo]', e.detail);
+  });
+</script>
+<script>
+  const widgets = document.querySelectorAll('app-hello-widget');
+  widgets.forEach(widget => {
+    widget.addEventListener('greeted', e => {
+      console.log('[externo]', e.detail);
+    });
+  });
+</script>
+  </body>
+</html>

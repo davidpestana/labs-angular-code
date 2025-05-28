@@ -1,0 +1,7 @@
+.container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #4e4e4e;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+}

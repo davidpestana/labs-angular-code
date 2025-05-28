@@ -1,0 +1,9 @@
+{
+  "name": "hello-widget",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Angular Web Component",
+  "scripts": {
+    "build": "ng build hello-widget"
+  }
+}
