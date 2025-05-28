@@ -3,6 +3,44 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+      "hello-widget": {
+        "projectType": "application",
+        "root": "src/app/widgets/hello-widget",
+        "sourceRoot": "src/app/widgets/hello-widget",
+        "architect": {
+          "build": {
+            "builder": "@angular-devkit/build-angular:application",
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "none"
+              }
+            },
+
+
+            "options": {
+              "index": "src/app/widgets/hello-widget/index.html",
+              "outputPath": "dist/widgets/hello-widget",
+              "browser": "src/app/widgets/hello-widget/main.ts",
+              "tsConfig": "src/app/widgets/hello-widget/tsconfig.app.json",
+              "polyfills": ["zone.js"]
+            }
+          }
+        }
+      },
+
+
     "solar-monitor": {
       "projectType": "application",
       "schematics": {},
@@ -12,6 +50,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
+
           "options": {
             "outputPath": "dist/solar-monitor",
             "index": "src/index.html",
